@@ -29,8 +29,8 @@ class Algo2{
                 
             }
             aq = aq +walls*(1.0/3.0)*1.5;
-                rq = rq +walls*(2.0/3.0)*2.25;
-                th = th+(walls*(1.0/3.0)*2.5) + (walls*(2.0/3.0)*3.25);
+            rq = rq +walls*(2.0/3.0)*2.25;
+            th = th+(walls*(1.0/3.0)*2.5) + (walls*(2.0/3.0)*3.25);
             System.out.println("Number of total walls"+ walls);
             System.out.println(th+" "+aq+" "+rq);
         }
