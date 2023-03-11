@@ -1,6 +1,7 @@
 import java.util.*;
 class Algo1Small{
     public static void main(String[] args){
+
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
 
@@ -12,7 +13,6 @@ class Algo1Small{
             }
         }
             
-        
         Arrays.sort(arr, new Comparator<int[]>() {
         @Override
         public int compare(final int[] val1, final int[] val2) {
@@ -30,5 +30,6 @@ class Algo1Small{
             }
             System.out.println();
         }
+        
     }
 }
